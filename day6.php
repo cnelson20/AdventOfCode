@@ -25,7 +25,7 @@ foreach ($textAsLines as &$val) {
 }
 $new = array();
 var_dump($merged);
-$count = 0;
+$count = 1;
 $str = "abcdefghijklmnopqrstuvwxyz"; //ABCDEFGHIJKLMNOPQRSTUVWXYZ;
 foreach ($merged as &$val) {
   $tempCount = 0;

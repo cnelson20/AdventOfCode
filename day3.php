@@ -15,12 +15,6 @@
             $x = 0;
             $y;
             $trees = 0;
-            //echo strlen($textAsLines[0]);
-            //$xincrease = intval($_GET['right']);
-            //$yincrease = intval($_GET['down']);
-            //var_dump($xincrease);
-            //var_dump($yincrease);
-            //var_dump($textAsLines);
             for ($y = 0; $y < count($textAsLines) - 1; $y = $y + $yincrease) {
                if (strcmp($textAsLines[$y][$x],"#") == 0) {$trees++;}
 

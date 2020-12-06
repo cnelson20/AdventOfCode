@@ -22,10 +22,8 @@ function NOThasCID($var) {
     sort($n);
     $n = array_values(array_filter($n,"NOThasCID"));
     $textEntries[] = $n;
-
   }
   //var_dump($textEntries);
-
   $valid = 0;
   foreach($textEntries as &$passport) {
     if (count($passport) < 7) {continue;}

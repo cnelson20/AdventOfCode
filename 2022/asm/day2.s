@@ -18,7 +18,6 @@ main:
 	jsr X16::Kernal::OPEN
 	
 	stz first_move
-	
 loop1:
 	ldx #12
 	jsr X16::Kernal::CHKIN

@@ -28,3 +28,6 @@ hs_err_pid*
 # object files
 *.prg
 *.o
+
+# idea
+.idea/

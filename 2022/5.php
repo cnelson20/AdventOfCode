@@ -38,7 +38,7 @@ while (true) {
 		
 		$temp = array_slice($crates[$from], 0, $amnt);
 		
-		if ($first_run == true) {
+		if ($first_run) {
 			$temp = array_reverse($temp);
 		}
 		
@@ -51,7 +51,7 @@ while (true) {
 	}
 	echo "\n";
 
-	if ($first_run == true) {
+	if ($first_run) {
 		$first_run = false;
 	} else {
 		break;
